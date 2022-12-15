@@ -22,7 +22,7 @@ r = take_input()
 print()
 print_tree(r)
 print()
-print_elements_k1_k2(r, 20,  55)                    #Here lower limit(k1) is 20 and upper limit(k2) is 55.
+print_elements_k1_k2(r, 70, 78)                    #Here lower limit(k1) is 20 and upper limit(k2) is 55.
 
 
 -------------------------------------------------------------SAMPLE I/O-----------------------------------------------------------------------------------
