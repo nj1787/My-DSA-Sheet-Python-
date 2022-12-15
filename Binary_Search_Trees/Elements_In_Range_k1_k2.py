@@ -5,7 +5,7 @@
 #Given a Binary Search Tree and two integers k1 and k2, find and print the elements which are in range k1 and k2 (both inclusive).
 #Print the elements in increasing order.
 
-def print_elements_k1_k2(root, k1, k2):           #Here k1(20) and k2(55) are formal arguments defining the range to print. 
+def print_elements_k1_k2(root, k1, k2):           #Here k1(70) and k2(78) are formal arguments defining the range to print. 
     if root is None:                              #Base Case -> Empty Tree -> Do Nothing
         return
     if root.data > k2:                            #If root is greater than upper limit, no point going to right side of tree
